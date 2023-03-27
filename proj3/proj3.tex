@@ -6,7 +6,10 @@
 \usepackage{multirow}
 \usepackage{subcaption}
 \usepackage{hyperref}
-\usepackage[ruled,onelanguage,czech,commentsnumbered,longend]{algorithm2e}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{picture}
+\usepackage[linesnumbered, ruled,onelanguage,czech,commentsnumbered,longend]{algorithm2e}
 
 \begin{document}
     
@@ -41,11 +44,10 @@ Při použití \texttt{tabbing} vypadá tabulka následovně:
     Hrušky \> 27,40 \> 2,5 kg \\
     Vodní melouny \> 35,- \> 1 kus \\
 \end{tabbing}
-\label{tab:1}
-Toto prostředí se dá také použít pro sázení algoritmů, ovšem vhodnější je použít prostředí \texttt{alogorithm} nebo \texttt{algorithm2e} (viz sekce 3).
+Toto prostředí se dá také použít pro sázení algoritmů, ovšem vhodnější je použít prostředí \texttt{alogorithm} nebo \texttt{algorithm2e} (viz sekce \ref*{sec:3}).
 
 \subsection{Prostředí \texttt{tabular}}
-Další možností, jak vytvořit tabulku je prostředí \texttt{tabular}. Tabulky pak budou vypadat takto\footnote[1]{Kdyby byl problém s \texttt{cline}, zkuste se podívat třeba sem: http://www.abclinuxu.cz/tex/poradna/show/325037.}:
+Další možností, jak vytvořit tabulku je prostředí \texttt{tabular}. Tabulky pak budou vypadat takto\footnote[1]{Kdyby byl problém s \texttt{cline}, zkuste se podívat třeba sem: http://www.abclinuxu.cz/tex/poradna/show/325037.\\[6em]}: %TODO: zmen
 
 \begin{table}[h]
 \catcode`\-=12
@@ -62,7 +64,7 @@ Další možností, jak vytvořit tabulku je prostředí \texttt{tabular}. Tabul
     \hline
 \end{tabular}
 \caption{Tabulka kurzů k dnešnímu dni}
-\label{tab:2}
+\label{tab:1}
 \end{table}
 
 \begin{table}[h]
@@ -141,41 +143,81 @@ Další možností, jak vytvořit tabulku je prostředí \texttt{tabular}. Tabul
         \hline 
     \end{tabular}
 \end{subtable}
-\label{tab:3}
 \caption{Protože Kleeneho trojhodnotová logika už je \uv{zastaralá}, uvádíme si zde příklad čtyřhodnotové logiky}
+\label{tab:2}
 \end{table}
 
-\newpage %TODO: odstran 
+
+\newpage 
 
 \section{Algoritmy}
+\label{sec:3}
 Pokud budeme chtít vysázet algoritmus, můžeme použít prostředí \texttt{algorithm}\footnote[2]{Pro nápovědu, jak zacházet s prostředím \texttt{algorithm}, můžeme zkusit tuhle stránku: \\
 http://ftp.cstug.cz/pub/tex/CTAN/macros/latex/contrib/algorithms/algorithms.pdf.}
 nebo \texttt{algorithm2e}\footnote[3]{Pro \texttt{algorithm2e} zase tuhle: http://ftp.cstug.cz/pub/tex/CTAN/macros/latex/contrib/algorithm2e/doc/algorithm2e.pdf.}.
-Příklad použití prostředí \texttt{algorithm2e} viz Algoritmus 1.
+Příklad použití prostředí \texttt{algorithm2e} viz Algoritmus \ref*{algo:1}.
 
 \begin{algorithm}
 \caption{F{\footnotesize AST}SLAM}
+\label{algo:1}
 \SetAlgoNoLine
-
 \SetNlSty{}{}{:}
 
 \KwIn{$(X_{t-1}, u_1, z_t)$}
 \KwOut{$X_t$}
 
 \BlankLine
-\nl $\overline{X_t} = X_t = 0$ \\
-\nl \For(){k=1 \normalfont{to} M}{
-    \nl $x_t^{[k]} = sample\_motion\_model(u_t,x_{t-1}^{[l]})$ \\
-    \nl $\omega_t^{[k]} = measurement\_model(z_t,x_t^{[k]},m_{r-1})$ \\
-    \nl $m_t^{[k]} = updated\_occupancy\_grid(z_t,x_t^{[k]},m_{t-1}^{[k]})$ \\
-    \nl $\overline{X_t} = \overline{X_t} + \langle x_x^{[m]}, \omega_t^{[m]} \rangle$
+
+$\overline{X_t} = X_t = 0$ \\
+\For(){k=1 \normalfont{to} M}{
+    $x_t^{[k]} = sample\_motion\_model(u_t,x_{t-1}^{[l]})$ \\
+    $\omega_t^{[k]} = measurement\_model(z_t,x_t^{[k]},m_{r-1})$ \\
+    $m_t^{[k]} = updated\_occupancy\_grid(z_t,x_t^{[k]},m_{t-1}^{[k]})$ \\
+    $\overline{X_t} = \overline{X_t} + \langle x_x^{[m]}, \omega_t^{[m]} \rangle$
 }
 
-\nl \For(){k=1 \normalfont{to} M}{
-    \nl $\mbox{draw \emph{i} with probability} \approx \omega_t^{[i]}$ \\
+\For(){k=1 \normalfont{to} M}{
+    $\mbox{draw \emph{i} with probability} \approx \omega_t^{[i]}$ \\
 }
-
+\Return{$X_t$}
 
 \end{algorithm}
+
+\section{Obrázky}
+Do našich článků můžeme samozřejmě vkládat obrázky. Pokud je obrázkem fotografie, můžeme klidně použít bitmapový soubor. Pokud by to ale mělo být nějaké schéma nebo něco podobného, je dobrým zvykem takovýto obrázek vytvořit vektorově.
+
+\begin{figure}[h]
+    \centering
+    \scalebox{0.45}{\includegraphics{etiopan.eps}}
+    \reflectbox{\scalebox{0.45}{\includegraphics{etiopan.eps}}}
+    \caption{Malý Etiopánek a jeho bratříček}
+    \label{img:1}
+\end{figure}
+
+\newpage
+
+Rozdíl mezi vektorovým...
+\begin{figure}[h]
+    \centering
+    \scalebox{0.5}{\includegraphics{oniisan.eps}}
+    \caption{Vektorový obrázek}
+    \label{img:2}
+\end{figure}
+
+...a bitmapovým obrázkem
+\begin{figure}[h]
+    \centering
+    \scalebox{0.75}{\includegraphics{oniisan2.eps}}
+    \caption{Bitmapový obrázek}
+    \label{img:3}
+\end{figure}
+
+se projeví například při zvětšení.
+
+Odkazy (nejen ty) na obrázky \ref*{img:1}, \ref*{img:2} a \ref*{img:3}, na tabulky \ref*{tab:1} a \ref*{tab:2} a také na algoritmus \ref*{algo:1} jsou udělány pomocí křížových odkazů. Pak je ovšem potřeba zdrojový soubor přeložit dvakrát.
+
+Vektorové obrázky lze vytvořit i přímo v Latexu, například pomocí prostředí \texttt{picture}.
+
+\newpage
 
 \end{document}

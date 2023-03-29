@@ -9,17 +9,20 @@
 \usepackage{graphics}
 \usepackage{graphicx}
 \usepackage{picture}
-\usepackage[linesnumbered, ruled,onelanguage,czech,commentsnumbered,longend]{algorithm2e}
+\usepackage{pdflscape}
+\usepackage[linesnumbered,ruled,onelanguage,czech,commentsnumbered,longend]{algorithm2e}
 
 \begin{document}
-    
+\SetNlSkip{-1em}
+\setlength{\unitlength}{1cm}
+
 \begin{titlepage}
     \begin{center}
         {\Huge \textsc{Vysoké učení technické v Brně}\\[0.5em]}
         {\huge \textsc{Fakulta informačních technologií}\\}
         \vspace{\stretch{0.382}}
         {\LARGE Typografie a publikování\,--\,3. projekt}\\[0.4em]
-        {\Huge Tabulky a obrazky \\}
+        {\Huge Tabulky a obrázky \\}
         \vspace{\stretch{0.618}}
     \end{center}
 
@@ -161,10 +164,12 @@ Příklad použití prostředí \texttt{algorithm2e} viz Algoritmus \ref*{algo:1
 \caption{F{\footnotesize AST}SLAM}
 \label{algo:1}
 \SetAlgoNoLine
-\SetNlSty{}{}{:}
+\SetNlSty{}{}{:\enspace}
+
 
 \KwIn{$(X_{t-1}, u_1, z_t)$}
 \KwOut{$X_t$}
+\Indp
 
 \BlankLine
 
@@ -219,5 +224,52 @@ Odkazy (nejen ty) na obrázky \ref*{img:1}, \ref*{img:2} a \ref*{img:3}, na tabu
 Vektorové obrázky lze vytvořit i přímo v Latexu, například pomocí prostředí \texttt{picture}.
 
 \newpage
+
+\begin{landscape}
+
+\fbox{
+\begin{picture}(23,10)
+    
+\put(20,8){\circle{2}}
+
+\linethickness{0.1cm}
+\put(1,1.5){\line(1,0){21}}
+
+
+\linethickness{0.04cm}
+
+\put(5,1.5){\line(0,1){1.5}}
+\put(5,3){\line(1,0){3.5}}
+\put(8.5,3){\line(3,-1){4.5}}
+
+\put(10,2.5){\line(1,0){10.5}}
+\put(20.5,2.5){\line(0,-1){1}}
+
+\put(9,2.85){\line(0,1){1}}
+\put(9,3.85){\line(1,0){11}}
+\put(20,3.85){\line(0,-1){1.32}}
+
+\put(7,3){\line(-2,3){1}}
+
+\put(6,4.5){\line(0,1){0.7}}
+\put(6,4.5){\line(1,0){14.5}}
+\put(6,5.2){\line(1,0){14.5}}
+\put(20.5,4.5){\line(0,1){0.7}}
+
+\put(8,5.2){\line(0,1){1}}
+\put(8,6.2){\line(1,0){6}}
+\put(14,5.2){\line(0,1){1}}
+
+\put(3.5,1.5){\line(0,1){4.2}}
+\put(3.5,5.7){\line(1,0){4.5}}
+
+\put(14,5.5){\line(1,0){5.5}}
+\put(19.5,5.2){\line(0,1){0.3}}
+
+\end{picture}
+}
+
+%TODO: add caption
+\end{landscape}
 
 \end{document}

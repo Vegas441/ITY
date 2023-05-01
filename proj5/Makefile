@@ -1,10 +1,9 @@
-PAPER=proj3
+PAPER=proj5
 
 all:
-	latex $(PAPER).tex
-	latex $(PAPER).tex
-	dvips -sPAPERSIZE=a4 $(PAPER).dvi
-	ps2pdf $(PAPER).ps
+	pdflatex $(PAPER).tex
+	
+	
 
 over: all
 	pdftk vzor.pdf multibackground $(PAPER).pdf output overlay.pdf

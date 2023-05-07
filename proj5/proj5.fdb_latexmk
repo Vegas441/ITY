@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1683287291 "/home/ds/ITY/proj5/proj5.tex" "proj5.pdf" "proj5" 1683287293 0
-  "/home/ds/ITY/proj5/proj5.tex" 1683287288 3089 c5861dd463e4544d107c31cd05d5707f ""
+["pdflatex"] 1683450794 "/home/ds/ITY/proj5/proj5.tex" "proj5.pdf" "proj5" 1683450795 0
+  "/home/ds/ITY/proj5/proj5.tex" 1683450793 4080 58bbe641837ca2f4a3494a9573d2b53d ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1680514707 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1680514707 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -102,6 +102,7 @@
   "/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty" 1680514707 88393 1adf6fa3f245270d06e3d4f8910f7fc5 ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty" 1680514707 4474 f04cd1cc7bd76eb033e6fb12eb6a0d77 ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty" 1680514707 2444 70065bddd85997dc1fd0bb7ae634e5fa ""
+  "/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty" 1678900920 2503 8b15dc1f244408537b5337bf97f380a6 ""
   "/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty" 1680514707 19336 ce7ae9438967282886b3b036cfad1e4d ""
   "/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty" 1680514707 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
   "/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1680514707 3052 30236f0cc243a8651b82240dfd2e8b9d ""
@@ -207,11 +208,12 @@
   "algorithm2e.sty" 1616417624 127367 36edded4e4d68334337b859df4dae855 ""
   "img/dijsktra_graph.jpg" 1683222949 72014 a3460bbcc926be103e406d581ac4612a ""
   "img/graph-algorithms1.png" 1682942225 118922 e6346008cdfe822c166eb757aa52a49e ""
+  "img/searches.jpg" 1683447352 119195 4e3e6917060ca22f63c9e567c44de175 ""
   "img/vut.png" 1683285333 4356 042f2bdee05fefbd0fcbd59864e7e65f ""
-  "proj5.aux" 1683287293 1878 ffe9e8518de85d745e81f8d931de3ecf "pdflatex"
-  "proj5.nav" 1683287293 945 46a6c8ad20883aec83ea595442ad8cfe "pdflatex"
-  "proj5.out" 1683287292 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "proj5.tex" 1683287288 3089 c5861dd463e4544d107c31cd05d5707f ""
+  "proj5.aux" 1683450795 2341 1543f2d86b5493decdcd9b8cbc21c96b "pdflatex"
+  "proj5.nav" 1683450795 1188 ac2234ed9ffe5343806fe445b8a6f3a9 "pdflatex"
+  "proj5.out" 1683450794 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "proj5.tex" 1683450793 4080 58bbe641837ca2f4a3494a9573d2b53d ""
   (generated)
   "proj5.aux"
   "proj5.log"

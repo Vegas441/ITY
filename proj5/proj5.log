@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.12)  5 MAY 2023 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.12)  7 MAY 2023 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -558,7 +558,7 @@ File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
-) (./algorithm2e.sty
+) (/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty) (./algorithm2e.sty
 Package: algorithm2e 2008/00/00 v3.10 algorithms environments
 \c@AlgoLine=\count336
  (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
@@ -612,24 +612,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./proj5.aux)
 \openout1 = `proj5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -684,60 +684,60 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 18.
  (./proj5.out) (./proj5.out)
 \@outlinefile=\write5
 \openout5 = `proj5.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 16.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 16.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 18.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 16.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 16.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 16.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 16.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 16.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 16.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 16.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 16.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 16.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 16.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 16.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 16.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 16.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 16.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 16.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 16.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 16.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 18.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 16.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 18.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 16.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 18.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 16.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 18.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -754,138 +754,102 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./proj5.nav)
-Overfull \hbox (30.60527pt too wide) in paragraph at lines 16--16
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 <img/vut.png, id=26, 289.08pt x 289.08pt>
 File: img/vut.png Graphic file (type png)
 <use img/vut.png>
-Package pdftex.def Info: img/vut.png  used on input line 18.
+Package pdftex.def Info: img/vut.png  used on input line 20.
 (pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
-
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/vut.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 32.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 34.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+) [2
 
-[2
+] [3
 
-]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [4
 
-[3
-
-]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[4
-
-]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[5
+] [5
 
 ]
 <img/graph-algorithms1.png, id=170, 772.8875pt x 543.02875pt>
 File: img/graph-algorithms1.png Graphic file (type png)
 <use img/graph-algorithms1.png>
-Package pdftex.def Info: img/graph-algorithms1.png  used on input line 40.
+Package pdftex.def Info: img/graph-algorithms1.png  used on input line 42.
 (pdftex.def)             Requested size: 170.63812pt x 119.88927pt.
-
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[6
+ [6
 
  <./img/graph-algorithms1.png>]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+<img/searches.jpg, id=198, 1204.5pt x 803.0pt>
+File: img/searches.jpg Graphic file (type jpg)
+<use img/searches.jpg>
+Package pdftex.def Info: img/searches.jpg  used on input line 69.
+(pdftex.def)             Requested size: 170.63812pt x 113.75478pt.
+ [7
 
-[7
-
-]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[8
-
-]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[9
+ <./img/searches.jpg>]
+File: img/searches.jpg Graphic file (type jpg)
+<use img/searches.jpg>
+Package pdftex.def Info: img/searches.jpg  used on input line 69.
+(pdftex.def)             Requested size: 170.63812pt x 113.75478pt.
+ [8
 
 ]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[10
+File: img/searches.jpg Graphic file (type jpg)
+<use img/searches.jpg>
+Package pdftex.def Info: img/searches.jpg  used on input line 69.
+(pdftex.def)             Requested size: 170.63812pt x 113.75478pt.
+ [9
 
 ]
-<img/dijsktra_graph.jpg, id=304, 716.6775pt x 334.24875pt>
+File: img/searches.jpg Graphic file (type jpg)
+<use img/searches.jpg>
+Package pdftex.def Info: img/searches.jpg  used on input line 69.
+(pdftex.def)             Requested size: 170.63812pt x 113.75478pt.
+ [10
+
+]
+File: img/searches.jpg Graphic file (type jpg)
+<use img/searches.jpg>
+Package pdftex.def Info: img/searches.jpg  used on input line 69.
+(pdftex.def)             Requested size: 170.63812pt x 113.75478pt.
+ [11
+
+]
+<img/dijsktra_graph.jpg, id=331, 716.6775pt x 334.24875pt>
 File: img/dijsktra_graph.jpg Graphic file (type jpg)
 <use img/dijsktra_graph.jpg>
-Package pdftex.def Info: img/dijsktra_graph.jpg  used on input line 76.
+Package pdftex.def Info: img/dijsktra_graph.jpg  used on input line 92.
 (pdftex.def)             Requested size: 171.14764pt x 79.81842pt.
+ [12
 
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ <./img/dijsktra_graph.jpg>] [13
 
-[11
+] [14
 
- <./img/dijsktra_graph.jpg>]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [15
 
-[12
+] [16
 
-]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [17
 
-[13
+] [18
 
 ]
-Overfull \hbox (30.60527pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
 
-[14
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 160.
 
-]
 \tf@nav=\write6
 \openout6 = `proj5.nav'.
 
@@ -895,23 +859,23 @@ Overfull \hbox (30.60527pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `proj5.snm'.
 
- (./proj5.aux)
+(./proj5.aux)
 Package rerunfilecheck Info: File `proj5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24463 strings out of 476025
- 470769 string characters out of 5796532
+ 24517 strings out of 476025
+ 472220 string characters out of 5796532
  1867388 words of memory out of 5000000
- 44405 multiletter control sequences out of 15000+600000
+ 44446 multiletter control sequences out of 15000+600000
  520298 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,22n,122p,419b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,22n,122p,419b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on proj5.pdf (14 pages, 317856 bytes).
+Output written on proj5.pdf (18 pages, 446410 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 29 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,14 +1,16 @@
 \documentclass[pdf,fyma2]{beamer}
 \usepackage{caption}
+\usepackage{appendixnumberbeamer}
 \usepackage[linesnumbered,ruled,onelanguage,commentsnumbered,longend]{algorithm2e}
 \usetheme{CambridgeUS}
 \definecolor{myNewColorA}{RGB}{139,0,0}
+\setbeamertemplate{footline}[title]
 
 \captionsetup{labelformat=empty}
 
 \title{Graph algorithms}
 \author{David Svaty}
-\institute{ Faculty of Information Technology, BUT }
+\institute{ FIT BUT }
 \date{\today}
 
 \titlegraphic{\includegraphics[height=2cm]{img/vut.png}} 
@@ -41,6 +43,10 @@
 
 \begin{frame}
     \frametitle{Examples of graph algorithms}
+    \begin{columns} 
+
+
+    \begin{column}{0.5\textwidth}
     \begin{itemize}
         \item Breadth-first search
         \pause
@@ -50,6 +56,16 @@
         \pause
         \item Minimum spanning tree 
     \end{itemize}    
+    \end{column}
+    \pause
+    \begin{column}{0.5\textwidth}
+    \begin{figure}
+        \includegraphics[width=170px]{img/searches.jpg}
+        \caption{Depth-first and breadth-first searches visualized}
+    \end{figure}    
+    \end{column}
+
+    \end{columns}
 \end{frame}
 
 \begin{frame}
@@ -76,7 +92,14 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Time complexity}
+    \frametitle{Complexity}
+    \begin{itemize}
+        \item Time complexity: $O(E \log V)$
+        \pause
+        \item Space complexity: $O(V)$
+        \pause
+        \item Where E is the number of edges and V is the number of vertices
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -121,7 +144,19 @@
 \end{frame}
 
 \begin{frame}
+    \frametitle{Sources}
+    \begin{itemize}
+        \item https://towardsdatascience.com/10-graph-algorithms-visually-explained-e57faa1336f3
+        \item https://www.programiz.com/dsa/dijkstra-algorithm
+        \item https://www.baeldung.com/cs/dijkstra-time-complexity
+        \item https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
     \textcolor{myNewColorA}{\Huge{\centerline{Thank you for your attention}}}
 \end{frame}
+
+\appendix
 
 \end{document}
